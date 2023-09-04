@@ -2,7 +2,7 @@ import ExpenseItem from "./ExpenseItem";
 import './ExpenseList.css'
 import Card from "../UI/Card";
 
-function ExpenseList(props) {
+const ExpenseList = (props) => {
     const expenseArr = [];
 
     for(let i = 0; i < props.expense.length; i++) {

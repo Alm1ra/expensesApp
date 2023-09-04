@@ -1,6 +1,6 @@
 import ExpenseList from "./components/Expenses/ExpenseList";
 import NewExpense from "./components/Expenses/NewExpense/NewExpense";
-function App() {
+const App = () => {
   const expense = [
     {id: 'e1', title: 'Car insurance', amount: 500, date: new Date(2023, 8, 21)},
     {id: 'e2', title: 'Rent', amount: 800, date: new Date(2023, 8, 5)},
